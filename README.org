@@ -1,0 +1,31 @@
+#+TITLE: chez-tortue
+
+
+Une tortue [ french: tɔʀty ] is a tortoise.  chez-tortue is a
+collection of functions I use when scheming.  My implementation of
+choice is [[https://cisco.github.io/ChezScheme/][chez scheme]] so it is written in this pleasant implementation
+of the language scheme.
+
+For now it is really a humble collection of crude scripts, but I hope
+one day it can fly.  After all, tortoises are only creatures that can
+fly in the underwater.
+
+* How to use
+
+Add chez-tortue directory to your environment variable
+~CHEZSCHEMELIBDIR~.  For example if you use emacs, then add
+
+#+begin_src elisp
+(setenv "CHEZSCHEMELIBDIRS" "<path-to-chez-tortue-directory>:")
+#+end_src
+
+* Components
+
+** (math number-theory)
+
+** (list iota)
+
+** (structure queue)
+
+** (vector base), (vector quicksort), (vector mergesort), (vector randomized-selection)
+
