@@ -2,6 +2,10 @@
 *.ss#*
 .#*.ss
 
+*.sls~
+*.sls#*
+.#*.sls
+
 *.scm~
 *.scm#*
 .#*.scm
